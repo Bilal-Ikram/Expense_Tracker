@@ -4,6 +4,7 @@ import mongoose from "mongoose";
 const transactionSchema = new mongoose.Schema({
     title: {
         type: String,
+        //bkjb//
         required: [true, "Title is required"],
         trim: true,
         
